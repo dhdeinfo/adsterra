@@ -1,9 +1,12 @@
-// Kode iklan yang disimpan di GitHub
 atOptions = {
-    'key' : '1b150b8f59ea7710fa35cd557a9e5e01',
+    'key' : '11c5c55bad36cf0f7e125ffd07c18c7c',
     'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
+    'height' : 60,
+    'width' : 468,
     'params' : {}
 };
-document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/1b150b8f59ea7710fa35cd557a9e5e01/invoke.js"></scr' + 'ipt>');
+
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = "//www.topcreativeformat.com/11c5c55bad36cf0f7e125ffd07c18c7c/invoke.js";
+document.getElementById('banner-container').appendChild(script);
